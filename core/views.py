@@ -9,6 +9,7 @@ import os
 def detect(request):
     success = False
     data = None
+    image = None
     form = ImageUploadForm()
 
     if request.method == "POST":

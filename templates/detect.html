@@ -8,6 +8,8 @@
     
 </form>
 
-Properties of "{{ image }}"
-<hr>
-{{ data }}
+{% if image != None %}
+    Properties of "{{ image }}"
+    <hr>
+    {{ data }}
+{% endif %}
